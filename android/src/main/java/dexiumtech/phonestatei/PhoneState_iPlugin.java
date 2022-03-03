@@ -70,7 +70,7 @@ public class PhoneState_iPlugin implements EventChannel.StreamHandler {
                         phoneCallOn = true;
                         break;
                     case TelephonyManager.CALL_STATE_RINGING:
-                        phoneCallOn = true;
+                        phoneCallOn = false;
                         break;
                 }
                 events.success(phoneCallOn.toString());

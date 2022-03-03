@@ -56,7 +56,7 @@ void _initCallManager() {
         else if(call.callState == CTCallStateIncoming)
         {
             NSLog(@"Call is incoming");
-            eventSink(myTrue);
+            eventSink(myFalse);
         }
         else
         {
